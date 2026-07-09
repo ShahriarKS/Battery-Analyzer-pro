@@ -404,11 +404,6 @@ Cooling fan automatically turns on when required.
 
 </ul>
 <h2>📂 Project Structure</h2>
-
-<pre>
-## 📂 Project Structure
-
-```text
 Battery-Analyzer-pro/
 │
 ├── Slide/
@@ -439,8 +434,6 @@ Battery-Analyzer-pro/
 ├── .gitattributes
 └── README.md
 ```
-</pre>
-
 ---
 <p> schematic circuit </p>
 
@@ -448,8 +441,10 @@ Battery-Analyzer-pro/
   <img src="images/circuit.jpg" width="45%">
 </p>
 
+<p> pcb design </p>
+  
 <p align="center">
-  <img src="hardware/PCB/pcb.jpg" width="45%">
+  <img src="hardware/PCB/pcb.png" width="45%">
 </p>
 
 ---

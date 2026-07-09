@@ -1,4 +1,4 @@
-```html
+
 <div align="center">
 
 <h1>🔋 ESP32 Based Lithium-Ion Battery Analyzer</h1>
@@ -211,5 +211,5 @@ United International University (UIU)
 <br><br>
 
 ⭐ If you like this project, consider giving it a Star.
-```
+
 

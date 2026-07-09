@@ -266,6 +266,8 @@ Cooling fan automatically turns on when required.
 
 </table>
 
+<img src="images/mid.jpg" width="700" alt="Project Image">
+
 ---
 
 <h2>🎯 Project Objectives</h2>

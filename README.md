@@ -446,7 +446,10 @@ Battery-Analyzer-pro/
 
 <p align="center">
   <img src="images/circuit.jpg" width="45%">
-  <img src="ihardware/PCB/pcb.png" width="45%">
+</p>
+
+<p align="center">
+  <img src="hardware/PCB/pcb.jpg" width="45%">
 </p>
 
 ---

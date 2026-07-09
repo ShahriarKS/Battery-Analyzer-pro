@@ -52,7 +52,7 @@ and educational laboratories.
 </p>
 
 <img src="images/mp_illusion.png" width="700" alt="Project Image">
-<p> the trap </p>
+<p> trapped as a customer </p>
 <img src="images/trap.png" width="700" alt="Project Image">
 ---
 

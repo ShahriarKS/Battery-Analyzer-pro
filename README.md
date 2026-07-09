@@ -406,14 +406,39 @@ Cooling fan automatically turns on when required.
 <h2>📂 Project Structure</h2>
 
 <pre>
-Battery-Analyzer/
+## 📂 Project Structure
+
+```text
+Battery-Analyzer-pro/
+│
+├── Slide/
+│   └── Battery_Analyzer_Presentation.pdf
+│
+├── circuit/
+│   └── circuit.jpg
 │
 ├── firmware/
+│   └── code.txt
+│
 ├── hardware/
-├── circuit/
+│   └── PCB/
+│       └── pcb.pdf
+│
 ├── images/
-├── docs/
+│   ├── beware.png
+│   ├── charge.png
+│   ├── circuit.jpg
+│   ├── discharge.png
+│   ├── flow.png
+│   ├── mid.png
+│   ├── mp_illusion.png
+│   ├── prototype.jpg
+│   ├── trap.png
+│   └── unique1.png
+│
+├── .gitattributes
 └── README.md
+```
 </pre>
 
 ---
@@ -421,6 +446,7 @@ Battery-Analyzer/
 
 <p align="center">
   <img src="images/circuit.jpg" width="45%">
+  <img src="ihardware/PCB/pcb.png" width="45%">
 </p>
 
 ---

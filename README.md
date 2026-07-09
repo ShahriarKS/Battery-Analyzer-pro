@@ -195,6 +195,15 @@ Cooling fan automatically turns on when required.
 
 </ol>
 
+<p> charging system </p>
+<img src="images/charge.png" width="700" alt="Charge Image">
+
+<p> discharging system </p>
+<img src="images/discharge.png" width="700" alt="Discharge Image">
+
+<p> flow state </p>
+<img src="images/flow.png" width="700" alt="flow Image">
+
 ---
 
 <h2>📊 Comparison with Existing Battery Testers</h2>
@@ -266,6 +275,8 @@ Cooling fan automatically turns on when required.
 
 </table>
 
+<img src="images/mid.png" width="700" alt="mid Image">
+
 ---
 
 <h2>🎯 Project Objectives</h2>
@@ -323,7 +334,7 @@ Battery-Analyzer/
 </pre>
 
 ---
-
+<p> schematic circuit </p>
 
 <p align="center">
   <img src="images/circuit.jpg" width="45%">
@@ -382,6 +393,10 @@ system architecture, hardware design, working principle, implementation, and fut
 <h2>👨‍💻 Author</h2>
 
 <b>Shahriar Kabir Saikat</b>
+
+<b>Sabiha Akter</b>
+
+<b>Sayeda Sanjida Karim Sanjida</b>
 
 <br>
 

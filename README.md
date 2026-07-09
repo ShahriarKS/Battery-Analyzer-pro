@@ -394,6 +394,10 @@ system architecture, hardware design, working principle, implementation, and fut
 
 <b>Shahriar Kabir Saikat</b>
 
+<b>Sabiha Akter</b>
+
+<b>Sayeda Sanjida Karim Sanjida</b>
+
 <br>
 
 B.Sc. in Computer Science & Engineering

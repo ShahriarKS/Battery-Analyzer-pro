@@ -327,7 +327,6 @@ Battery-Analyzer/
   <img src="images/circuit.png" width="45%" alt="Circuit Diagram">
 </p>
 
-</p>
 
 ---
 

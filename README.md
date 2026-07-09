@@ -322,11 +322,8 @@ Battery-Analyzer/
 
 ---
 
-<h2>📸 Project Images</h2>
 
 <p align="center">
-
-<img src="images/prototype.jpg" width="45%">
 
 <img src="images/circuit.jpg" width="45%">
 

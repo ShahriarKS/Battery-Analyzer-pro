@@ -403,7 +403,9 @@ Cooling fan automatically turns on when required.
 <li>🏭 Battery Quality Inspection</li>
 
 </ul>
-<h2>📂 Project Structure</h2>
+## 📂 Project Structure
+
+```text
 Battery-Analyzer-pro/
 │
 ├── Slide/

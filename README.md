@@ -31,6 +31,69 @@ displaying real-time information on an OLED display.
 </p>
 
 ---
+<h2>🚨 Problem Statement</h2>
+
+<p align="justify">
+
+Lithium-Ion batteries are widely used in smartphones, laptops, electric vehicles,
+power banks, drones, and IoT devices. Despite their widespread use, determining
+the actual health of a battery remains a significant challenge.
+
+Most affordable battery testers available in the market only display the battery
+voltage. However, battery voltage alone cannot accurately determine the remaining
+capacity or overall health of a battery. A battery may still show a normal voltage
+while suffering from reduced capacity, increased internal resistance, and poor
+performance under load.
+
+Professional battery analyzers provide accurate measurements but are often
+expensive, bulky, and inaccessible for students, hobbyists, repair technicians,
+and educational laboratories.
+
+</p>
+
+---
+
+<h2>💡 Proposed Solution</h2>
+
+<p align="justify">
+
+This project presents a low-cost, portable, and open-source Battery Analyzer
+powered by the ESP32 microcontroller.
+
+The analyzer performs automated battery diagnostics by measuring multiple battery
+health parameters instead of relying only on voltage. It combines precision
+voltage sensing, constant-current discharge control, capacity estimation,
+internal resistance calculation, and real-time monitoring into a single compact
+device.
+
+The system provides an affordable alternative to expensive commercial battery
+analyzers while maintaining reliable measurement accuracy for educational,
+research, and repair applications.
+
+</p>
+
+---
+
+<h2>⭐ Why is this Different?</h2>
+
+<p align="justify">
+
+Unlike conventional low-cost battery testers, this project performs a complete
+battery health analysis instead of displaying only battery voltage.
+
+By integrating an ESP32, ADS1115 ADC, LM358 operational amplifier, and MOSFET-
+based electronic load, the analyzer is capable of maintaining a stable constant
+discharge current while calculating battery capacity and internal resistance in
+real time.
+
+Its open-source architecture also allows developers and researchers to customize,
+extend, and integrate additional features such as cloud monitoring, data logging,
+and machine learning-based battery health prediction.
+
+</p>
+
+---
+
 
 <h2>✨ Features</h2>
 
@@ -128,70 +191,6 @@ Cooling fan automatically turns on when required.
 </li>
 
 </ol>
-
----
----
-
-<h2>🚨 Problem Statement</h2>
-
-<p align="justify">
-
-Lithium-Ion batteries are widely used in smartphones, laptops, electric vehicles,
-power banks, drones, and IoT devices. Despite their widespread use, determining
-the actual health of a battery remains a significant challenge.
-
-Most affordable battery testers available in the market only display the battery
-voltage. However, battery voltage alone cannot accurately determine the remaining
-capacity or overall health of a battery. A battery may still show a normal voltage
-while suffering from reduced capacity, increased internal resistance, and poor
-performance under load.
-
-Professional battery analyzers provide accurate measurements but are often
-expensive, bulky, and inaccessible for students, hobbyists, repair technicians,
-and educational laboratories.
-
-</p>
-
----
-
-<h2>💡 Proposed Solution</h2>
-
-<p align="justify">
-
-This project presents a low-cost, portable, and open-source Battery Analyzer
-powered by the ESP32 microcontroller.
-
-The analyzer performs automated battery diagnostics by measuring multiple battery
-health parameters instead of relying only on voltage. It combines precision
-voltage sensing, constant-current discharge control, capacity estimation,
-internal resistance calculation, and real-time monitoring into a single compact
-device.
-
-The system provides an affordable alternative to expensive commercial battery
-analyzers while maintaining reliable measurement accuracy for educational,
-research, and repair applications.
-
-</p>
-
----
-
-<h2>⭐ Why is this Different?</h2>
-
-<p align="justify">
-
-Unlike conventional low-cost battery testers, this project performs a complete
-battery health analysis instead of displaying only battery voltage.
-
-By integrating an ESP32, ADS1115 ADC, LM358 operational amplifier, and MOSFET-
-based electronic load, the analyzer is capable of maintaining a stable constant
-discharge current while calculating battery capacity and internal resistance in
-real time.
-
-Its open-source architecture also allows developers and researchers to customize,
-extend, and integrate additional features such as cloud monitoring, data logging,
-and machine learning-based battery health prediction.
-
-</p>
 
 ---
 

@@ -51,8 +51,9 @@ and educational laboratories.
 
 </p>
 
-<img src="images/mpillusion.jpg" width="700" alt="Project Image">
-
+<img src="images/mp_illusion.jpg" width="700" alt="Project Image">
+<p> the trap </p>
+<img src="images/trap.jpg" width="700" alt="Project Image">
 ---
 
 <h2>💡 Proposed Solution</h2>

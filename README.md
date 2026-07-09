@@ -87,7 +87,7 @@ battery health analysis instead of displaying only battery voltage.
 By integrating an ESP32, ADS1115 ADC, LM358 operational amplifier, and MOSFET-
 based electronic load, the analyzer is capable of maintaining a stable constant
 discharge current while calculating battery capacity and internal resistance in
-real time.
+real time and it can discharge or charge in the middle of the test.
 
 Its open-source architecture also allows developers and researchers to customize,
 extend, and integrate additional features such as cloud monitoring, data logging,

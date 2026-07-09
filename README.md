@@ -1,4 +1,4 @@
-<img width="1113" height="659" alt="image" src="https://github.com/user-attachments/assets/a06407dc-1b46-4984-9199-71a16e8dc074" />
+
 <div align="center">
 
 <h1>🔋 ESP32 Based Lithium-Ion Battery Analyzer</h1>

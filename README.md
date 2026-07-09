@@ -51,6 +51,8 @@ and educational laboratories.
 
 </p>
 
+<img src="images/mpillusion.jpg" width="700" alt="Project Image">
+
 ---
 
 <h2>💡 Proposed Solution</h2>

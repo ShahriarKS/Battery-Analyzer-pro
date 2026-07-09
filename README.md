@@ -1,4 +1,4 @@
-
+<img width="1113" height="659" alt="image" src="https://github.com/user-attachments/assets/a06407dc-1b46-4984-9199-71a16e8dc074" />
 <div align="center">
 
 <h1>🔋 ESP32 Based Lithium-Ion Battery Analyzer</h1>
@@ -51,7 +51,7 @@ and educational laboratories.
 
 </p>
 
-<img src="images/mp_illusion.png" width="700" alt="Project Image">
+<img src="images/mp_illusion.png" width="700" alt="illusion Image">
 <p> trapped as a customer </p>
 <img src="images/trap.png" width="700" alt="Project Image">
 ---
@@ -87,13 +87,16 @@ battery health analysis instead of displaying only battery voltage.
 By integrating an ESP32, ADS1115 ADC, LM358 operational amplifier, and MOSFET-
 based electronic load, the analyzer is capable of maintaining a stable constant
 discharge current while calculating battery capacity and internal resistance in
-real time and it can discharge or charge in the middle of the test.
+real time and it can discharge or charge in the middle of the test and real time dashboard.
 
 Its open-source architecture also allows developers and researchers to customize,
 extend, and integrate additional features such as cloud monitoring, data logging,
 and machine learning-based battery health prediction.
 
 </p>
+
+<img src="images/unique1.png" width="700" alt="Project Image">
+
 
 ---
 

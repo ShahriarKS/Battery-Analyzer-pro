@@ -87,7 +87,7 @@ battery health analysis instead of displaying only battery voltage.
 By integrating an ESP32, ADS1115 ADC, LM358 operational amplifier, and MOSFET-
 based electronic load, the analyzer is capable of maintaining a stable constant
 discharge current while calculating battery capacity and internal resistance in
-real time.
+real time and it can discharge or charge in the middle of the test.
 
 Its open-source architecture also allows developers and researchers to customize,
 extend, and integrate additional features such as cloud monitoring, data logging,
@@ -122,43 +122,123 @@ and machine learning-based battery health prediction.
 </tr>
 
 <tr>
-<td>ESP32</td>
-<td>Main Controller</td>
+<td>ESP32 DevKit</td>
+<td>Main Controller & Data Processing</td>
 </tr>
 
 <tr>
-<td>ADS1115</td>
-<td>16-bit ADC Voltage Measurement</td>
+<td>Perfboard</td>
+<td>Circuit Assembly</td>
 </tr>
 
 <tr>
-<td>LM358</td>
-<td>Constant Current Controller</td>
+<td>18650 Battery Holder</td>
+<td>Battery Connection</td>
 </tr>
 
 <tr>
-<td>IRFZ44N</td>
-<td>Electronic Load MOSFET</td>
+<td>OLED SSD1306 Display</td>
+<td>User Interface & Measurement Display</td>
 </tr>
 
 <tr>
-<td>1Ω 10W Resistor</td>
+<td>ADS1115 ADC Module</td>
+<td>High-Precision Voltage Measurement</td>
+</tr>
+
+<tr>
+<td>LM358 IC</td>
+<td>Constant Current Control Circuit</td>
+</tr>
+
+<tr>
+<td>8-Pin IC Socket</td>
+<td>LM358 Mounting</td>
+</tr>
+
+<tr>
+<td>IRLZ44N MOSFET</td>
+<td>Electronic Load</td>
+</tr>
+
+<tr>
+<td>1Ω 10W Power Resistor</td>
 <td>Current Sensing</td>
 </tr>
 
 <tr>
-<td>OLED Display</td>
-<td>User Interface</td>
+<td>Heatsink</td>
+<td>MOSFET Cooling</td>
 </tr>
 
 <tr>
-<td>Mini360 Buck Converter</td>
-<td>Voltage Regulation</td>
+<td>Thermal Paste</td>
+<td>Improves Heat Transfer</td>
 </tr>
 
 <tr>
-<td>Cooling Fan</td>
-<td>Thermal Management</td>
+<td>Push Button</td>
+<td>User Input / Menu Control</td>
+</tr>
+
+<tr>
+<td>Buzzer</td>
+<td>Audio Notifications</td>
+</tr>
+
+<tr>
+<td>Green LED</td>
+<td>Status Indicator</td>
+</tr>
+
+<tr>
+<td>Red LED</td>
+<td>Error / Warning Indicator</td>
+</tr>
+
+<tr>
+<td>Blue/Yellow LED</td>
+<td>Operation Status Indicator</td>
+</tr>
+
+<tr>
+<td>220Ω, 470Ω, 4.7kΩ, 10kΩ, 33kΩ, 1MΩ Resistors</td>
+<td>Voltage Divider & Signal Conditioning</td>
+</tr>
+
+<tr>
+<td>104 Ceramic Capacitor</td>
+<td>Noise Filtering</td>
+</tr>
+
+<tr>
+<td>220µF Capacitor</td>
+<td>Power Supply Stabilization</td>
+</tr>
+
+<tr>
+<td>Male/Female Header Pins</td>
+<td>Module Connections</td>
+</tr>
+
+<tr>
+<td>4-Pin OLED Header</td>
+<td>OLED Display Connection</td>
+</tr>
+
+<tr>
+<td>2-Pin Screw Terminal</td>
+<td>Battery Terminal Connection</td>
+</tr>
+
+<tr>
+<td>Hook-up Wire</td>
+<td>Electrical Wiring</td>
+</tr>
+
+<tr>
+<td>Solder Wire</td>
+<td>Circuit Assembly</td>
 </tr>
 
 </table>
@@ -387,6 +467,8 @@ system architecture, hardware design, working principle, implementation, and fut
 <li>DIY Electronics</li>
 
 </ul>
+
+<img src="images/beware.png" width="700" alt="mid Image">
 
 ---
 

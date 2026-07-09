@@ -500,7 +500,9 @@ system architecture, hardware design, working principle, implementation, and fut
 <img src="images/beware.png" width="700" alt="mid Image">
 
 Codes are available in the repo
-
+video link : <a href="https://drive.google.com/file/d/1q9ekWjB4Etu7om_Ahfynb7dFqIQA65fe/view?usp=sharing" target="_blank">
+    📄 Battery Analyzer Pro (team :project semai)  (Google Drive)
+</a>
 ---
 
 <h2>👨‍💻 Author</h2>

@@ -388,6 +388,8 @@ system architecture, hardware design, working principle, implementation, and fut
 
 </ul>
 
+<img src="images/beware.png" width="700" alt="mid Image">
+
 ---
 
 <h2>👨‍💻 Author</h2>

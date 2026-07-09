@@ -334,7 +334,7 @@ Battery-Analyzer/
 </pre>
 
 ---
-
+<p> schematic circuit </p>
 
 <p align="center">
   <img src="images/circuit.jpg" width="45%">

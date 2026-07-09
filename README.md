@@ -130,7 +130,183 @@ Cooling fan automatically turns on when required.
 </ol>
 
 ---
+---
 
+<h2>🚨 Problem Statement</h2>
+
+<p align="justify">
+
+Lithium-Ion batteries are widely used in smartphones, laptops, electric vehicles,
+power banks, drones, and IoT devices. Despite their widespread use, determining
+the actual health of a battery remains a significant challenge.
+
+Most affordable battery testers available in the market only display the battery
+voltage. However, battery voltage alone cannot accurately determine the remaining
+capacity or overall health of a battery. A battery may still show a normal voltage
+while suffering from reduced capacity, increased internal resistance, and poor
+performance under load.
+
+Professional battery analyzers provide accurate measurements but are often
+expensive, bulky, and inaccessible for students, hobbyists, repair technicians,
+and educational laboratories.
+
+</p>
+
+---
+
+<h2>💡 Proposed Solution</h2>
+
+<p align="justify">
+
+This project presents a low-cost, portable, and open-source Battery Analyzer
+powered by the ESP32 microcontroller.
+
+The analyzer performs automated battery diagnostics by measuring multiple battery
+health parameters instead of relying only on voltage. It combines precision
+voltage sensing, constant-current discharge control, capacity estimation,
+internal resistance calculation, and real-time monitoring into a single compact
+device.
+
+The system provides an affordable alternative to expensive commercial battery
+analyzers while maintaining reliable measurement accuracy for educational,
+research, and repair applications.
+
+</p>
+
+---
+
+<h2>⭐ Why is this Different?</h2>
+
+<p align="justify">
+
+Unlike conventional low-cost battery testers, this project performs a complete
+battery health analysis instead of displaying only battery voltage.
+
+By integrating an ESP32, ADS1115 ADC, LM358 operational amplifier, and MOSFET-
+based electronic load, the analyzer is capable of maintaining a stable constant
+discharge current while calculating battery capacity and internal resistance in
+real time.
+
+Its open-source architecture also allows developers and researchers to customize,
+extend, and integrate additional features such as cloud monitoring, data logging,
+and machine learning-based battery health prediction.
+
+</p>
+
+---
+
+<h2>📊 Comparison with Existing Battery Testers</h2>
+
+<table>
+
+<tr>
+<th>Feature</th>
+<th>Low-Cost Tester</th>
+<th>Professional Analyzer</th>
+<th>This Project</th>
+</tr>
+
+<tr>
+<td>Voltage Measurement</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+
+<tr>
+<td>Capacity Estimation</td>
+<td>❌</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+
+<tr>
+<td>Internal Resistance Measurement</td>
+<td>❌</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+
+<tr>
+<td>Constant Current Discharge</td>
+<td>❌</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+
+<tr>
+<td>OLED Display</td>
+<td>❌</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+
+<tr>
+<td>ESP32 Wi-Fi Support</td>
+<td>❌</td>
+<td>Limited</td>
+<td>✅</td>
+</tr>
+
+<tr>
+<td>Open Source</td>
+<td>❌</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+
+<tr>
+<td>Affordable</td>
+<td>✅</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+
+</table>
+
+---
+
+<h2>🎯 Project Objectives</h2>
+
+<ul>
+
+<li>Develop a low-cost Lithium-Ion Battery Analyzer.</li>
+
+<li>Measure battery voltage with high precision.</li>
+
+<li>Estimate actual battery capacity (mAh).</li>
+
+<li>Measure internal resistance (mΩ).</li>
+
+<li>Maintain constant current using an LM358 and MOSFET.</li>
+
+<li>Display live battery information on an OLED display.</li>
+
+<li>Provide an open-source platform for battery research and education.</li>
+
+</ul>
+
+---
+
+<h2>🌍 Real-World Applications</h2>
+
+<ul>
+
+<li>🔋 Battery Repair & Refurbishment</li>
+
+<li>📱 Smartphone & Laptop Battery Diagnostics</li>
+
+<li>🚗 Electric Vehicle Battery Maintenance</li>
+
+<li>🧪 Engineering Research Laboratories</li>
+
+<li>🎓 University Projects & Education</li>
+
+<li>⚡ DIY Electronics and Maker Communities</li>
+
+<li>🏭 Battery Quality Inspection</li>
+
+</ul>
 <h2>📂 Project Structure</h2>
 
 <pre>

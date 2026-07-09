@@ -355,8 +355,8 @@ This repository includes the complete project presentation describing the proble
 system architecture, hardware design, working principle, implementation, and future improvements.
 </p>
 
-<a href="docs/Battery_Analyzer_Presentation.pdf">
-📄 View Presentation Slides
+<a href="slide/Battery_Analyzer_Presentation.pptx">
+  📊 Battery Analyzer Presentation (PPTX)
 </a>
 ---
 <h2>📚 Applications</h2>
